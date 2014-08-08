@@ -1,0 +1,10 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\filemap.scale-100.pri"			"resources.pri"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\WPWide310x150Logo.scale-100.png"			"Assets\WPWide310x150Logo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\Square71x71Logo.scale-100.png"			"Assets\Square71x71Logo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\SplashScreenp.scale-100.png"			"Assets\SplashScreenp.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\SmallLogop.scale-100.png"			"Assets\SmallLogop.scale-100.png"

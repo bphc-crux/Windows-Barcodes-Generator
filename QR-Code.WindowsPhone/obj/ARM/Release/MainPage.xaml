@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="QR_Code.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF041101">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Name="BITS" Height="100" Width="100"/>
+                <TextBlock Name="Welcome" Text="Welcome"/>
+            </StackPanel>
+            <TextBlock Text="Select the format of QR-Code:" FontSize="30" TextWrapping="Wrap"/>
+            <ListBox x:ConnectionId='1' x:Name="Select" Background="#FF040F01" Margin="10,0"                                                                                 >
+                <ListBoxItem x:Name="Button1"   Content="Free Text" HorizontalAlignment="Stretch" FontFamily="Segoe Print" VerticalAlignment="Stretch" Width="380" Foreground="White" FontWeight="Bold" FontSize="30">
+                    
+                </ListBoxItem>
+                <ListBoxItem x:Name="Button2"  Content="URL of a website" HorizontalAlignment="Stretch" FontFamily="Segoe Print" Width="380" Foreground="White" FontWeight="Bold" FontSize="30" >
+                   
+                </ListBoxItem>
+                <ListBoxItem x:Name="Button3"  Content="Contact Information" HorizontalAlignment="Stretch" FontFamily="Segoe Print" Width="380"  Foreground="White" FontWeight="Bold" FontSize="30" >
+                    
+                </ListBoxItem>
+                <ListBoxItem x:Name="Button4"  Content="Phone Number" HorizontalAlignment="Stretch" FontFamily="Segoe Print" Width="380" Foreground="White" FontWeight="Bold" FontSize="30" >
+                    
+                </ListBoxItem>
+                <ListBoxItem x:Name="Button5"  Content="SMS-Message" HorizontalAlignment="Stretch" FontFamily="Segoe Print" Width="380" Foreground="White" FontWeight="Bold" FontSize="30" >
+                    
+                </ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Page>
+

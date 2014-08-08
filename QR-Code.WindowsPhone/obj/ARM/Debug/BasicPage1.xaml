@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="QR_Code.BasicPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="#FF042904">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="788.333"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+
+        <Pivot Title="QR-Code Generator" Name="Select"  Margin="0,184,0,0" Height="420" VerticalAlignment="Top">
+            <PivotItem Header="free-text">
+                <TextBox x:ConnectionId='20' x:Name="Freetext" Height="200" TextWrapping="Wrap"                                    />
+            </PivotItem>
+            <PivotItem Header="url">
+                <TextBox x:ConnectionId='19' x:Name="Freetext2" Text="http://" TextWrapping="Wrap" VerticalAlignment="Top"                                    InputScope="Url" />
+            </PivotItem>
+            <PivotItem Header="contact">
+                <ScrollViewer VerticalScrollMode="Enabled" Height="225">
+                <StackPanel x:Name="st32" >
+                        <TextBox x:ConnectionId='6' Name="Name" PlaceholderText="Name:"  BorderBrush="Black"                                     />
+                        <TextBox x:ConnectionId='7' Name="FirstName" PlaceholderText="First Name:"  BorderBrush="Black"                                     />
+                        <TextBox x:ConnectionId='8' Name="Organisation"  PlaceholderText="Organisation:"  BorderBrush="Black"                                     />
+                        <TextBox x:ConnectionId='9' Name="Email" PlaceholderText="Email Address:"  BorderBrush="Black"                                     InputScope="EmailSmtpAddress" />
+                        <TextBox x:ConnectionId='10' Name="Phone" PlaceholderText="Phone Number:"   BorderBrush="Black"                                    InputScope="TelephoneNumber" />
+                        <TextBox x:ConnectionId='11' Name="Cell"  PlaceholderText="Cell-Phone No.:"  BorderBrush="Black"                                    InputScope="TelephoneNumber" />
+                        <TextBox x:ConnectionId='12' Name="Fax"  PlaceholderText="Fax:"  BorderBrush="Black"                                     InputScope="TelephoneNumber" />
+                        <TextBox x:ConnectionId='13' Name="Street"  PlaceholderText="Address:"  BorderBrush="Black"                                    />
+                        <TextBox x:ConnectionId='14' Name="PostCode" PlaceholderText="Postal Code:"  BorderBrush="Black"                                    />
+                        <TextBox x:ConnectionId='15' Name="City"  PlaceholderText="City:" BorderBrush="Black"                                     />
+                        <TextBox x:ConnectionId='16' Name="Region"  PlaceholderText="Region:"  BorderBrush="Black"                                     />
+                        <TextBox x:ConnectionId='17' Name="Country"  PlaceholderText="Country:" BorderBrush="Black"                                    />
+                        <TextBox x:ConnectionId='18' Name="Website" PlaceholderText="Website:"   BorderBrush="Black"                                    InputScope="Url" />
+                    </StackPanel>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="phone">
+                <TextBox x:ConnectionId='5' x:Name="Freetext4"  PlaceholderText="+919012345678" TextWrapping="Wrap" VerticalAlignment="Top" BorderThickness="5" InputScope="TelephoneNumber"                                    />
+            </PivotItem>
+            <PivotItem Header="sms">
+                <StackPanel>
+                    <TextBox x:ConnectionId='3' x:Name="PhoneNumber"  PlaceholderText="+919012345678"  VerticalAlignment="Top"                                      InputScope="TelephoneNumber" />
+                    <TextBox x:ConnectionId='4' x:Name="Message" TextWrapping="Wrap" VerticalAlignment="Top"  Margin="0,10,-0.333,0"                                     InputScope="Chat" Height="160" PlaceholderText="Hi, this is a sample message." />
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+        <Image x:ConnectionId='1' Name="Image" HorizontalAlignment="Center" Height="180" VerticalAlignment="Top" Width="180" Source="Assets/MainLogo.png"                       Margin="10" Stretch="UniformToFill"/>
+        <Popup x:Name="ImageViewer" Margin="10,10,10,208.333">
+            <Grid Background="#FF060613" Height="558" Width="370">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <AppBarButton x:ConnectionId='2' Icon="Cancel"                            />
+                    </StackPanel>
+                    <Image Name="BigImage" Source="Assets/MainLogo.png" Height="480" />
+                </StackPanel>
+            </Grid>
+        </Popup>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="Green">
+            <AppBarButton x:ConnectionId='21' Icon="Save" Label="Save"                   />
+            <AppBarButton x:ConnectionId='22' Icon="Edit" Label="Customize"                        />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+    
+

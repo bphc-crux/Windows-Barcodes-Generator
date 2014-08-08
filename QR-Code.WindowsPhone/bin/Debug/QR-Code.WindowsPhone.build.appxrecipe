@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SRUJAN</Machine>
+    <WindowsUser>Srujan Jha</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e2e2367c-2957-4b97-8857-a023554a09ac</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\QR-Code.WindowsPhone.exe">
+      <PackagePath>QR-Code.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\packages\ZXing.Net.0.14.0.1\lib\wpa81\ZXing.winmd">
+      <PackagePath>ZXing.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SmallLogop.scale-100.png">
+      <PackagePath>Assets\SmallLogop.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SmallLogop.scale-140.png">
+      <PackagePath>Assets\SmallLogop.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SmallLogop.scale-240.png">
+      <PackagePath>Assets\SmallLogop.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SplashScreenp.scale-100.png">
+      <PackagePath>Assets\SplashScreenp.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SplashScreenp.scale-140.png">
+      <PackagePath>Assets\SplashScreenp.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\SplashScreenp.scale-240.png">
+      <PackagePath>Assets\SplashScreenp.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\Wide310x150Logo.scale-140.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\WPWide310x150Logo.scale-100.png">
+      <PackagePath>Assets\WPWide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\Assets\WPWide310x150Logo.scale-140.png">
+      <PackagePath>Assets\WPWide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Data_Matrix.png">
+      <PackagePath>Assets\Data_Matrix.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\PLESSEY.png">
+      <PackagePath>Assets\PLESSEY.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\AZTEC.png">
+      <PackagePath>Assets\AZTEC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\CODABAR.png">
+      <PackagePath>Assets\CODABAR.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\CODE_128.png">
+      <PackagePath>Assets\CODE_128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\CODE_39.png">
+      <PackagePath>Assets\CODE_39.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\EAN_13.png">
+      <PackagePath>Assets\EAN_13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\EAN_8.png">
+      <PackagePath>Assets\EAN_8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\ITF.png">
+      <PackagePath>Assets\ITF.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\MainLogo.png">
+      <PackagePath>Assets\MainLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\MSI.png">
+      <PackagePath>Assets\MSI.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\QR_Code.png">
+      <PackagePath>Assets\QR_Code.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Screenshot %28139%29.png">
+      <PackagePath>Assets\Screenshot %28139%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square310x310Logo.scale-140.png">
+      <PackagePath>Assets\Square310x310Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square310x310Logo.scale-180.png">
+      <PackagePath>Assets\Square310x310Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square310x310Logo.scale-80.png">
+      <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square70x70Logo.scale-140.png">
+      <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square70x70Logo.scale-180.png">
+      <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\UPC_A.png">
+      <PackagePath>Assets\UPC_A.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Wide310x150Logo.scale-180.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\Wide310x150Logo.scale-80.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.Shared\Assets\cool-green-matrix-backgrounds-wallpapers-color-images-green-backgrounds.jpg">
+      <PackagePath>Assets\cool-green-matrix-backgrounds-wallpapers-color-images-green-backgrounds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\BarCodes.xbf">
+      <PackagePath>BarCodes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\BarCodes2.xbf">
+      <PackagePath>BarCodes2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\BasicPage1.xbf">
+      <PackagePath>BasicPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\ColorPickerPage.xbf">
+      <PackagePath>ColorPickerPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\Customize.xbf">
+      <PackagePath>Customize.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\Customize_Barcode.xbf">
+      <PackagePath>Customize_Barcode.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\Customize_Barcodes2.xbf">
+      <PackagePath>Customize_Barcodes2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\Introduction.xbf">
+      <PackagePath>Introduction.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\QR-Code.WindowsPhone.xr.xml">
+      <PackagePath>QR-Code.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<Page
+    x:Class="QR_Code.Customize_Barcode"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <!-- Collection of items displayed by this page -->
+        <CollectionViewSource
+        x:Name="Items"
+        Source="{Binding Items}"/>
+    </Page.Resources>
+    <Grid x:Name="LayoutRoot" Background="#FF042904">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="10,0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Image x:Name="MyImage" Width="300" Height="200" Margin="10"  Source="Assets/MainLogo.png" VerticalAlignment="Center" HorizontalAlignment="Left" Tapped="Image_Tapped"/>
+        </StackPanel>
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <Pivot Title="Bar-Code Generator">
+                <PivotItem Header="colors">
+                    <StackPanel>
+                        <StackPanel Tapped="ForeGround_Tapped">
+                            <TextBlock Name="foreText" Text="Foreground:" FontSize="25"/>
+                            <Rectangle x:Name="Fore" Fill="Black" Height="40" Width="160"/>
+                            
+                        </StackPanel>
+                        <StackPanel  Tapped="BackGround_Tapped" Margin="10">
+                            <TextBlock Name="backText" Text="Background:" FontSize="25"/>
+                            <Rectangle x:Name="Back" Fill="White" Height="40" Width="160"/>
+                            
+                        </StackPanel>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="size">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                            <RadioButton Name="r400" Content="300x400px" Margin="0,-5" FontSize="20" Checked="rdefine_Checked" />
+                            <RadioButton Name="r300" Content="200x300px" Margin="0,-5" IsChecked="True" FontSize="20"  Checked="rdefine_Checked"/>
+                            <RadioButton Name="r200" Content="100x200px" Margin="0,-5" FontSize="20"  Checked="rdefine_Checked"/>
+                            <RadioButton Name="r100" Content="50x100px" Margin="0,-5" FontSize="20"  Checked="rdefine_Checked"/>
+
+                        </StackPanel>
+                        <StackPanel>
+                            <RadioButton Name="rcustom" Content="Custom" Checked="rcustom_Checked" FontSize="20"/>
+                            <StackPanel Name="Customtb1" Orientation="Horizontal" Visibility="Collapsed"  >
+                                <TextBox Name="Customh" Width="80" InputScope="Number" PlaceholderText="Height" FontSize="20"/>
+                                <TextBlock   Text="px" FontSize="40"/>
+                            </StackPanel>
+                            <StackPanel Name="Customtb2" Orientation="Horizontal" Visibility="Collapsed"  >
+                                <TextBox Name="Customw"  Width="80" InputScope="Number" PlaceholderText="Width" FontSize="20"/>
+                                <TextBlock Text="px" FontSize="40"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </PivotItem>
+            </Pivot>
+
+        </Grid>
+        <Popup x:Name="ImageViewer" Margin="10,10,10,208.333">
+            <Grid Background="#FF060613" Height="558" Width="370">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <AppBarButton Icon="Cancel" Click="AppBarButton_Click" />
+                    </StackPanel>
+                    <Image Name="BigImage" Source="Assets/MainLogo.png" Height="475" />
+                </StackPanel>
+            </Grid>
+        </Popup>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="Green">
+            <AppBarButton Icon="Save" Label="Save" Click="Save_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

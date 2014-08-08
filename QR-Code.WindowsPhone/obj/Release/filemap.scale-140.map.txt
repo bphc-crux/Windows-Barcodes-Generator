@@ -1,0 +1,11 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\filemap.scale-140.pri"			"resources.pri"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\WPWide310x150Logo.scale-140.png"			"Assets\WPWide310x150Logo.scale-140.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\Wide310x150Logo.scale-140.png"			"Assets\Wide310x150Logo.scale-140.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\Square71x71Logo.scale-140.png"			"Assets\Square71x71Logo.scale-140.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\SplashScreenp.scale-140.png"			"Assets\SplashScreenp.scale-140.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\QR-Code\QR-Code.WindowsPhone\obj\Release\PackageLayout\Assets\SmallLogop.scale-140.png"			"Assets\SmallLogop.scale-140.png"

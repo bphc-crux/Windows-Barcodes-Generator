@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\qr-code.windowsphone\obj\arm\release\intermediatexaml\qr-code.windowsphone.exe" HashGuid="0ade3dea-2d7a-a066-0048-5b542aa5094d" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\nokiaimagingsdk.1.2.151\lib\wpa81-hidden\arm\nokia.graphics.imaging.managed.dll" HashGuid="d2c34021-8ee1-e5c4-fdde-1307a71afece" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\nokiaimagingsdk.1.2.151\lib\wpa81\arm\nokia.graphics.imaging.winmd" HashGuid="f1e1d0ac-d682-cf3a-df9f-515deecb4e0b" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\nokiaimagingsdk.1.2.151\lib\wpa81\arm\nokia.interopservices.windowsruntime.winmd" HashGuid="a620c63c-5810-01fc-ad49-135fe4647723" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\zxing.net.0.14.0.1\lib\wpa81\zxing.winmd" HashGuid="a78fc7f8-dd46-b4f1-5011-27b2896bf3e2" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="QR_Code.BarCodes2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="#FF042904">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="788.333"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+
+        <Pivot Title="Bar-Code Generator" Name="Select" Margin="0,252,0,0" Height="423" VerticalAlignment="Top">
+            <PivotItem Header="AZTEC">
+                <TextBox x:ConnectionId='4' Name="aztecText"                                    PlaceholderText="ANYthing123"/>
+            </PivotItem>
+            <PivotItem Header="DATA_Matrix">
+                <TextBox x:ConnectionId='3' Name="dataText"                                    PlaceholderText="ANYthing123"/>
+            </PivotItem>
+        </Pivot>
+        <Image x:ConnectionId='1' Name="Image" Margin="10"  Height="200" VerticalAlignment="Top" Width="300" Source="Assets/AZTEC.png"                      />
+        <Popup x:Name="ImageViewer" Margin="10,10,10,208.333">
+            <Grid Background="#FF060613" Height="558" Width="370">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <AppBarButton x:ConnectionId='2' Icon="Cancel"                            />
+                    </StackPanel>
+                    <Image Name="BigImage" Source="Assets/AZTEC.png" Height="475" />
+                </StackPanel>
+            </Grid>
+        </Popup>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="Green">
+            <AppBarButton x:ConnectionId='5' Icon="Save" Label="Save"                   />
+            <AppBarButton x:ConnectionId='6' Icon="Edit" Label="Customize"                        />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+    
+

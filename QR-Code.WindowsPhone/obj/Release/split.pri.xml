@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="44162SrujanJha.QR-CodeGen" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="About.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/About.xbf">
+				<Candidate type="Path">
+					<Value>About.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BarCodes.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/BarCodes.xbf">
+				<Candidate type="Path">
+					<Value>BarCodes.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BarCodes2.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/BarCodes2.xbf">
+				<Candidate type="Path">
+					<Value>BarCodes2.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BasicPage1.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/BasicPage1.xbf">
+				<Candidate type="Path">
+					<Value>BasicPage1.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ColorPickerPage.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/ColorPickerPage.xbf">
+				<Candidate type="Path">
+					<Value>ColorPickerPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Customize.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Customize.xbf">
+				<Candidate type="Path">
+					<Value>Customize.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Customize_Barcode.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Customize_Barcode.xbf">
+				<Candidate type="Path">
+					<Value>Customize_Barcode.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Customize_Barcodes2.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Customize_Barcodes2.xbf">
+				<Candidate type="Path">
+					<Value>Customize_Barcodes2.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Introduction.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Introduction.xbf">
+				<Candidate type="Path">
+					<Value>Introduction.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="QR-Code.WindowsPhone.xr.xml" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/QR-Code.WindowsPhone.xr.xml">
+				<Candidate type="Path">
+					<Value>QR-Code.WindowsPhone.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="1.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/1.png">
+					<Candidate type="Path">
+						<Value>Assets\1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AZTEC.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/AZTEC.png">
+					<Candidate type="Path">
+						<Value>Assets\AZTEC.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CODABAR.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/CODABAR.png">
+					<Candidate type="Path">
+						<Value>Assets\CODABAR.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CODE_128.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/CODE_128.png">
+					<Candidate type="Path">
+						<Value>Assets\CODE_128.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CODE_39.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/CODE_39.png">
+					<Candidate type="Path">
+						<Value>Assets\CODE_39.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cool-green-matrix-backgrounds-wallpapers-color-images-green-backgrounds.jpg" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/cool-green-matrix-backgrounds-wallpapers-color-images-green-backgrounds.jpg">
+					<Candidate type="Path">
+						<Value>Assets\cool-green-matrix-backgrounds-wallpapers-color-images-green-backgrounds.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Data_Matrix.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/Data_Matrix.png">
+					<Candidate type="Path">
+						<Value>Assets\Data_Matrix.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EAN_13.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/EAN_13.png">
+					<Candidate type="Path">
+						<Value>Assets\EAN_13.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EAN_8.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/EAN_8.png">
+					<Candidate type="Path">
+						<Value>Assets\EAN_8.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ITF.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/ITF.png">
+					<Candidate type="Path">
+						<Value>Assets\ITF.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainLogo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/MainLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\MainLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MSI.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/MSI.png">
+					<Candidate type="Path">
+						<Value>Assets\MSI.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PLESSEY.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/PLESSEY.png">
+					<Candidate type="Path">
+						<Value>Assets\PLESSEY.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="QR_Code.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/QR_Code.png">
+					<Candidate type="Path">
+						<Value>Assets\QR_Code.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogop.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/SmallLogop.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogop.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenp.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/SplashScreenp.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreenp.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UPC_A.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/UPC_A.png">
+					<Candidate type="Path">
+						<Value>Assets\UPC_A.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/Wide310x150Logo.png"/>
+				<NamedResource name="WideLogo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WPWide310x150Logo.png" uri="ms-resource://44162SrujanJha.QR-CodeGen/Files/Assets/WPWide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WPWide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="Image" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image0" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image0">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image1" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image1">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image10" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image10">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image11" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image11">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image2" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image2">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image3" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image3">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image5" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image5">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image6" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image6">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image7" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image7">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image8" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image8">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Image9" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Image9">
+				<Candidate type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title0" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title0">
+				<Candidate type="String">
+					<Value>QR_Code</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title1" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title1">
+				<Candidate type="String">
+					<Value>CODABAR</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title10" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title10">
+				<Candidate type="String">
+					<Value>AZTEC</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title11" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title11">
+				<Candidate type="String">
+					<Value>Data_Matrix</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title2" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title2">
+				<Candidate type="String">
+					<Value>Code_128</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title3" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title3">
+				<Candidate type="String">
+					<Value>Code_39</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title4" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title4">
+				<Candidate type="String">
+					<Value>EAN_13</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title5" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title5">
+				<Candidate type="String">
+					<Value>EAN_8</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title6" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title6">
+				<Candidate type="String">
+					<Value>ITF</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title7" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title7">
+				<Candidate type="String">
+					<Value>MSI</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title8" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title8">
+				<Candidate type="String">
+					<Value>UPC_A</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Title9" uri="ms-resource://44162SrujanJha.QR-CodeGen/Resources/Title9">
+				<Candidate type="String">
+					<Value>PLESSEY</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

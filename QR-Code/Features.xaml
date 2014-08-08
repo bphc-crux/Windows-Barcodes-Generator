@@ -1,0 +1,61 @@
+﻿<SettingsFlyout
+    x:Class="QR_Code.Features"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="Features"
+    d:DesignWidth="346" Background="#FFAAC3A5" BorderBrush="#FF143211" HeaderBackground="#FF324B2E">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" FontSize="20" >
+            	<Run Text="Features of QR-Code Generator"/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap" FontSize="20" FontStretch="ExtraExpanded" CharacterSpacing="1">
+            	<Run Text="* QR-Code Designer allows you to make your own QR-Codes"/>
+            	<Run Text=", linear and 2D-barcodes"/>
+            	<Run Text="."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="* This "/>
+            	<Run Text="app generates real time barcodes."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="* You can save the "/>
+            	<Run Text="barcode "/>
+            	<Run Text="as an image file on your PC."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="* "/>
+            	<Run Text="Various customizations can be done on the barcodes."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="* It provides a great UI and user-friendly environment."/>
+            </TextBlock>
+
+        </StackPanel>
+        <HyperlinkButton Content="Features" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigateUri="http://srujanjha.wix.com/qr-code-generator#!features/ctzx" />
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>

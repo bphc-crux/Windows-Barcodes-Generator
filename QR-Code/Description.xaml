@@ -1,0 +1,51 @@
+﻿<SettingsFlyout
+    x:Class="QR_Code.Description"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="Description"
+    d:DesignWidth="346" Background="#FFAAC3A5" BorderBrush="#FF143211" HeaderBackground="#FF324B2E">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Description of QR-Code Generator" FontSize="20" />
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap" FontSize="20" CharacterSpacing="1">
+            	<Run Text="QR-Code Designer is a great tool that enables you to design/make personalised QR-Codes"/>
+            	<Run Text=" "/>
+            	<Run Text="on any of these following topics:"/>
+            	<LineBreak/>
+            	<Run Text="&gt;Freetext: Make QR-Codes which has simple text."/>
+            	<LineBreak/>
+            	<Run Text="&gt;URL/Website: Make QR-Codes which contain URL of a website."/>
+            	<LineBreak/>
+            	<Run Text="&gt;Contact: Make QR-Codes which contain all contact information of a individual/company."/>
+            	<LineBreak/>
+            	<Run Text="&gt;Phone-Number: Make QR-Codes which contain a contact number."/>
+            	<LineBreak/>
+            	<Run Text="&gt;SMS: Make QR-Codes which has message and a phone number."/>
+            	<LineBreak/>
+            	<Run Text="You can also generate linear barcodes like CODABAR, CODE-39, CODE-128, EAN-13, EAN-8, ITF, MSI, UPC-A and PLESSEY."/>
+            	<LineBreak/>
+            	<Run Text="You can also generate 2D-barcodes like Datamatrix and AZTEC."/>
+            </TextBlock>
+
+        </StackPanel>
+        <HyperlinkButton Content="Description" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigateUri="http://srujanjha.wix.com/qr-code-generator#!description/cihc" Height="40"/>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>
