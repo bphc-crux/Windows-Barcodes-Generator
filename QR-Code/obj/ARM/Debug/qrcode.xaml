@@ -1,0 +1,53 @@
+﻿<SettingsFlyout
+    x:Class="QR_Code.qrcode"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="QR-Code"
+    d:DesignWidth="346"  Background="#FFAAC3A5" BorderBrush="#FF143211" HeaderBackground="#FF324B2E">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="About QR-Code" />
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap">
+            	<Run Text="What is a QR Code?"/>
+            	<LineBreak/>
+            	<Run Text="A QR Code is a two-dimensional barcode that is readable by smartphones. It allows to encode over 4000 characters in a two dimensional barcode. QR Codes may be used to display text to the user, to open a URL, save a contact to the address book or to compose text messages. &quot;QR Code&quot; is a registered trademark of DENSO WAVE INCORPORATED."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="To read QR Codes with your smartphone, you need an appropriate software installed on your phone. For Android-based devices, you can use Barcode Scanner by ZXing. On iOS-Devices like iPhones there are also QR Code readers available on the AppStore, for Example i-nigma. On Firefox OS try QR Code Scanner. On Symbian devices, you can use Mobiletag barcodes reader for example."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="If you use a modern web browser (recent versions of Firefox or Chrome) and have a webcam, this site allows you to scan QR Codes with your web browser. You can use this to send a link from a phone to your desktop browser for example.QR code (abbreviated from Quick Response Code) is the trademark for a type of matrix barcode (or two-dimensional barcode) first designed for theautomotive industry in Japan. A barcode is an optically machine-readable label that is attached to an item and that records information related to that item. The information encoded by a QR code may be made up of four standardized types (&quot;modes&quot;) of data (numeric, alphanumeric, byte / binary, kanji) or, through supported extensions, virtually any type of data."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The QR Code system has become popular outside the automotive industry due to its fast readability and greater storage capacity compared to standard UPC barcodes. Applications include product tracking, item identification, time tracking, document management, general marketing, and much more."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="A QR code consists of black modules (square dots) arranged in a square grid on a white background, which can be read by an imaging device (such as a camera) and processed using Reed–Solomon error correction until the image can be appropriately interpreted; data is then extracted from patterns present in both horizontal and vertical components of the image."/>
+            </TextBlock>
+        </StackPanel>
+        <HyperlinkButton Content="QR-Code" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigateUri="http://srujanjha.wix.com/qr-code-generator#!qr-code/c1kq"/>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>
+

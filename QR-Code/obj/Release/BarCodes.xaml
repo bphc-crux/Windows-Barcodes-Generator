@@ -1,0 +1,203 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="QR_Code.BarCodes"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Code"
+    xmlns:common="using:QR_Code.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:adduplex="using:AdDuplex.Controls"
+   mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- Collection of items displayed by this page -->
+        <CollectionViewSource
+        x:Name="itemsViewSource"
+        Source="{Binding Items}"/>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="#FF042904">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="primaryColumn" Width="420"/>
+            <ColumnDefinition x:Name="secondaryColumn" Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid x:Name="titlePanel">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="BarCode(1D) Generator" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,-235,40"/>
+        </Grid>
+
+        <!-- Vertical scrolling item list -->
+        <ListBox x:ConnectionId='1' x:Name="itemListView" BorderBrush="White" BorderThickness="5" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Right" Width="350"                                                  Background="#CCFFFFFF" >
+            <ListBoxItem Content="CODABAR" FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2"  Width="350"/>
+            <ListBoxItem Content="CODE_128" FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2" Width="350" />
+            <ListBoxItem Content="CODE_39" FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2"  Width="350"/>
+            <ListBoxItem Content="EAN_13"  FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2" Width="350" />
+            <ListBoxItem Content="EAN_8"  FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2"  Width="350"/>
+            <ListBoxItem Content="ITF" FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2"  Width="350"/>
+            <ListBoxItem Content="MSI" FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2" Width="350" />
+            <ListBoxItem Content="UPC_A" FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2"  Width="350"/>
+            <ListBoxItem Content="PLESSEY"  FontSize="30" FontWeight="Bold" BorderBrush="#FF8BFF00" BorderThickness="2" Width="350" />
+        </ListBox>
+
+        <!-- Details for selected item -->
+        <ScrollViewer
+            x:Name="itemDetail"
+            AutomationProperties.AutomationId="ItemDetailScrollViewer"
+            Grid.Column="1"
+            Padding="60,0,66,0"
+            DataContext="{Binding SelectedItem, ElementName=itemListView}"
+            HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"
+            ScrollViewer.HorizontalScrollMode="Disabled" ScrollViewer.VerticalScrollMode="Enabled"
+            ScrollViewer.ZoomMode="Disabled" Grid.Row="1">
+
+            <Grid x:Name="itemDetailGrid" Margin="0,60,0,50">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                    <Image x:Name="Image"  Margin="0,0,20,0" Width="200" Height="150" Source="Assets/CODABAR.png"/>
+                    <StackPanel>
+                        <Button x:ConnectionId='12' Name="Save" Content="Save" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Top"                    Margin="10" Height="47" FontSize="20"/>
+                        <Button x:ConnectionId='13' Name="Customize" Content="Customize" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Top"                         Margin="10" Height="47" FontSize="20"/>
+                    </StackPanel>
+                </StackPanel><StackPanel x:Name="itemDetailTitlePanel" Grid.Row="1" Grid.Column="1">
+                    <TextBlock x:Name="itemTitle" Margin="0,-10,0,0" Text="{Binding Title}" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                    <TextBlock x:Name="itemSubtitle" Margin="0,0,0,20" Text="{Binding Subtitle}" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                </StackPanel>
+                <Grid x:Name="User2" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top" Margin="0,20,0,0">
+                    <StackPanel x:Name="st2" Width="470" Background="#FF094007" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="140" >
+                        <TextBlock Name="FreeTitle" Text="CODABAR" FontSize="30" TextAlignment="Center" Height="40"/>
+                        <TextBox x:ConnectionId='3' Margin="10" Name="cbarText" FontSize="30" InputScope="NumberFullWidth"                                    PlaceholderText="123456789"/>
+                        <TextBox x:ConnectionId='4' Margin="10" Name="c128Text" FontSize="30"                                    PlaceholderText="ANYTHING123" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='5' Margin="10" Name="c39Text" FontSize="30" InputScope="NameOrPhoneNumber"                                    PlaceholderText="123456789999" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='6' Margin="10" Name="ean13Text" FontSize="30" InputScope="NumberFullWidth"                                    MaxLength="13" PlaceholderText="9781449394707" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='7' Margin="10" Name="ean8Text" FontSize="30" InputScope="NumberFullWidth"                                    MaxLength="8" PlaceholderText="9781449394707" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='8' Margin="10" Name="itfText"  FontSize="30" InputScope="NumberFullWidth"                                    PlaceholderText="9781449394707" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='9' Margin="10" Name="msiText" FontSize="30" InputScope="NumberFullWidth"                                    PlaceholderText="9781449394707" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='10' Margin="10" Name="upcaText" FontSize="30" InputScope="NumberFullWidth"                                    MaxLength="12" PlaceholderText="123456789999" Visibility="Collapsed"/>
+                        <TextBox x:ConnectionId='11' Margin="10" Name="plsText" FontSize="30" InputScope="NumberFullWidth"                                    PlaceholderText="123456789999" Visibility="Collapsed"/>
+                    </StackPanel>
+                </Grid>
+
+            </Grid>
+        </ScrollViewer>
+        <Popup x:Name="LightDismissAnimatedPopup" HorizontalOffset="10" VerticalOffset="10" IsLightDismissEnabled="True" Margin="29,160,38,298" Grid.Column="1" Grid.Row="1">
+            <Popup.ChildTransitions>
+                <TransitionCollection>
+                    <PopupThemeTransition />
+                </TransitionCollection>
+            </Popup.ChildTransitions>
+            <Border BorderThickness="2" Width="864" Height="146">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4B7A07" Offset="0"/>
+                        <GradientStop Color="#FF97FF00" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Border.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="8" Width="844" Height="126">
+                    <TextBlock x:Name="errortext" Text="Simple Popup" FontSize="24.667" Height="68" Width="824" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Foreground="Black" TextWrapping="Wrap" />
+                    <Button x:ConnectionId='2' x:Name="close" Content="Close"                                   HorizontalAlignment="Stretch" Background="#FF446C09" Height="48" Margin="329,0,341,0" />
+                </StackPanel>
+            </Border>
+        </Popup>
+        <adduplex:AdControl x:Name="adDuplexAd" Grid.Row="1" AppId="77587" Size="160x600"  Height="600" Width="160" Opacity="0.8" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,0,10" Grid.Column="1" Grid.RowSpan="2" />
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ViewStates">
+                <VisualState x:Name="PrimaryView" />
+                <VisualState x:Name="SinglePane">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="primaryColumn" Storyboard.TargetProperty="Width">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="*"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="secondaryColumn" Storyboard.TargetProperty="Width">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="0"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemDetail" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemListView" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="120,0,90,60"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <!--
+                    When an item is selected and only one pane is shown the details display requires more extensive changes:
+                     * Hide the master list and the column it was in
+                     * Move item details down a row to make room for the title
+                     * Move the title directly above the details
+                     * Adjust padding for details
+                 -->
+                <VisualState x:Name="SinglePane_Detail">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="primaryColumn" Storyboard.TargetProperty="Width">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="0"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemListView" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemDetail" Storyboard.TargetProperty="(Grid.Row)">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="1"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemDetail" Storyboard.TargetProperty="(Grid.RowSpan)">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="1"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="titlePanel" Storyboard.TargetProperty="(Grid.Column)">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="1"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemDetailGrid" Storyboard.TargetProperty="Margin">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="0,0,0,60"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="itemDetail" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="120,0,90,0"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>
+

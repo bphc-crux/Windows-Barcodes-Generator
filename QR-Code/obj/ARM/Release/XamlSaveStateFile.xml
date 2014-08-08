@@ -1,0 +1,12 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\qr-code\obj\arm\release\intermediatexaml\qr-code.exe" HashGuid="0c2430c4-c59f-7325-168c-c1760e762b7e" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\adduplexcontrolsxaml\8.1.0.0\references\commonconfiguration\neutral\adduplex.controls.winmd" HashGuid="da4a766f-914b-be23-185f-5cbc10245063" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\adduplexcontrolsxaml\8.1.0.0\references\commonconfiguration\neutral\adduplex.winrt.winmd" HashGuid="96f0259b-2d02-1fa8-f218-8b27941b7029" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\nokiaimagingsdk.1.2.151\lib\win81-hidden\arm\nokia.graphics.imaging.managed.dll" HashGuid="b244a974-b78b-3cfe-4acd-492d060255f7" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\nokiaimagingsdk.1.2.151\lib\win81\arm\nokia.graphics.imaging.winmd" HashGuid="f1e1d0ac-d682-cf3a-df9f-515deecb4e0b" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\qr-code\packages\nokiaimagingsdk.1.2.151\lib\win81\arm\nokia.interopservices.windowsruntime.winmd" HashGuid="a620c63c-5810-01fc-ad49-135fe4647723" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\bookmybook\notificationsextensions.winmd" HashGuid="47bdb5c7-fcfd-a765-073f-e5d2eaa6da61" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
