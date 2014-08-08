@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8c0d779d-cd7e-43a5-8137-65a71362a098</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>QR_Code</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data_Matrix.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\PLESSEY.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\AZTEC.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CODABAR.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CODE_128.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CODE_39.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\cool-green-matrix-backgrounds-wallpapers-color-images-green-backgrounds.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EAN_13.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EAN_8.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ITF.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MainLogo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MSI.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\QR_Code.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\UPC_A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Colors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Items.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SaveImage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Resources\Resources.resw" />
+  </ItemGroup>
+</Project>
